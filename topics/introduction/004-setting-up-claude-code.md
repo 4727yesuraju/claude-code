@@ -1,72 +1,138 @@
-# Setting Up Claude Code
+# 🚀 Setting Up Claude Code
 
-## 1. 📖 Simple English Explanation
+## 📖 Simple English Explanation
 
-**Claude Code** is a coding agent from Anthropic that runs in your terminal and can work with your codebase.
+**Claude Code** is a command-line tool that lets you use Claude directly in your terminal to work with your code.
 
-To set it up, you install Claude Code, open your project folder, and start Claude.
+Before using it, we need to:
 
-## 2. 🤔 Why is it Needed?
+1. Install Claude Code
+2. Open our project
+3. Login to Claude
+4. Start Claude Code
 
-Setting up Claude Code allows you to:
+---
 
-* 📂 Work with your existing project
-* 💻 Ask Claude to read and modify code
-* 🛠️ Use terminal tools
-* 🧪 Run tests and commands
-* 🔄 Build features using an agentic workflow
+## 🤔 Why is it Needed?
 
-## 3. 🌊 Flow
+Setting up Claude Code allows us to use AI directly inside our development workflow.
+
+For example, we can ask Claude to:
+
+* Understand our code
+* Create or modify files
+* Find bugs
+* Write tests
+* Explain code
+* Run commands
+
+---
+
+## ⚙️ Setup Flow
 
 ```text
 Install Claude Code
-        ↓
-Open your project folder
-        ↓
-Start Claude Code
-        ↓
-Sign in
-        ↓
-Give Claude a coding task
-        ↓
-Claude works with your project
+       ↓
+Open Terminal
+       ↓
+Go to Project
+       ↓
+Run Claude
+       ↓
+Login
+       ↓
+Start Coding with Claude
 ```
 
-## 4. ✍️ Syntax
+---
 
-Install Claude Code:
+## 💻 Basic Setup
+
+### 1. Install Claude Code
+
+Install Claude Code using the official installation method for your operating system.
+
+After installation, check that it works:
 
 ```bash
-npm install -g @anthropic-ai/claude-code
+claude --version
 ```
 
-Start Claude Code inside your project:
+If you see a version number, Claude Code is installed successfully.
 
-```bash
-claude
-```
+---
 
-## 5. 💻 Example
+### 2. Go to Your Project
+
+Open your terminal and move into your project folder:
 
 ```bash
 cd my-project
+```
+
+Example:
+
+```bash
+cd flooros
+```
+
+---
+
+### 3. Start Claude Code
+
+Run:
+
+```bash
 claude
 ```
 
-Then ask:
+Claude Code will start inside your terminal.
+
+---
+
+### 4. Login
+
+If you are not logged in, Claude Code will ask you to authenticate.
+
+Complete the login process in your browser.
+
+After successful login, you can start using Claude Code.
+
+---
+
+## 🎯 Example
+
+Suppose you have a Node.js project:
+
+```text
+my-app/
+├── src/
+├── package.json
+└── README.md
+```
+
+Open the project:
+
+```bash
+cd my-app
+```
+
+Then:
+
+```bash
+claude
+```
+
+Now you can ask:
 
 ```text
 Explain this project structure.
 ```
 
-Or:
+Claude Code can inspect the project and explain it.
 
-```text
-Find and fix the login bug.
-```
+---
 
-Claude can inspect the project, make changes, and help you test them.
 
-## 6. 🧠 Memory Trick
 
-**Setup = Install → Open Project → `claude` → Ask → Review**
+
